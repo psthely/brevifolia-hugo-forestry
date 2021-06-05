@@ -31,4 +31,3 @@ Voici quelques liens intéressants :
 * Netlify - Modern Web Development on the Jamstack [https://www.netlify.com/oreilly-jamstack/](https://www.netlify.com/oreilly-jamstack/ "https://www.netlify.com/oreilly-jamstack/")
 * GitHub - Hugo [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo "https://github.com/gohugoio/hugo")
 * GitHub - Forestry [https://github.com/forestryio/forestry.io](https://github.com/forestryio/forestry.io "https://github.com/forestryio/forestry.io")
-* 
