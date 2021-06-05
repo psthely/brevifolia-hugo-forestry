@@ -15,4 +15,10 @@ De plus, la centralisation des données sur un même serveur n'est pas ce qu'il 
 
 Mais dans le domaine des sites web, il existe énormément de projets qui n'ont tout simplement pas besoin de traitements des données en flux tendu.
 
-Et là, les sites statiques tirent leur épingle du jeu de façon brillante.
+Et là, les sites statiques tirent leur épingle du jeu de façon brillante :
+
+* déploiement continu simplifié grâce à des services de CDN comme Netlify ou GitHub
+* administration des serveurs délégué au service de CDN (sécurité, décentralisation, résilience)
+* traitement des données en amont, réponses quasi instantanées aux requêtes client
+
+Un service de CDN comme Netlify propose une importante liste de services concernant l'administration de la logique de déploiement des sites statiques en ce qui concerne les tests, les gestions de versions, les DNS, la configuration des builds, etc. Tout cela de façon sécurisée et user-friendly.
