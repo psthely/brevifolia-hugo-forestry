@@ -3,7 +3,7 @@ author = "Philippe Sthely"
 date = 2021-06-04T22:00:00Z
 draft = true
 hero = "/images/what-is-hugo.png"
-title = "A propos : des générateurs de sites statiques"
+title = "Générateurs de sites statiques et CDN"
 type = "blog"
 
 +++
