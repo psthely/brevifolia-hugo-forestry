@@ -22,3 +22,13 @@ Et là, les sites statiques tirent leur épingle du jeu de façon brillante :
 * traitement des données en amont, réponses quasi instantanées aux requêtes client
 
 Un service de CDN comme Netlify propose une importante liste de services concernant l'administration de la logique de déploiement des sites statiques en ce qui concerne les tests, les gestions de versions, les DNS, la configuration des builds, etc. Tout cela de façon sécurisée et user-friendly.
+
+Plus concrètement, j'utilise GitHub comme dépôt de code source, Hugo pour générer la sortie statique des sites web, Forestry comme CMS et Netlify comme CDN. Le tout en ligne de commande ou avec des scripts Shell pour automatiser certaines tâches... C'est presque magique.
+
+Voici quelques liens intéressants :
+
+* Jamstatic - Netlify en 10 fonctionnalités [https://jamstatic.fr/2018/01/07/netlify-en-10-fonctionnalites/](https://jamstatic.fr/2018/01/07/netlify-en-10-fonctionnalites/ "https://jamstatic.fr/2018/01/07/netlify-en-10-fonctionnalites/")
+* Netlify - Modern Web Development on the Jamstack [https://www.netlify.com/oreilly-jamstack/](https://www.netlify.com/oreilly-jamstack/ "https://www.netlify.com/oreilly-jamstack/")
+* GitHub - Hugo [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo "https://github.com/gohugoio/hugo")
+* GitHub - Forestry [https://github.com/forestryio/forestry.io](https://github.com/forestryio/forestry.io "https://github.com/forestryio/forestry.io")
+* 
