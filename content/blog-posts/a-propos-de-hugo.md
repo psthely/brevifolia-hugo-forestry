@@ -1,7 +1,6 @@
 +++
 author = "Philippe Sthely"
 date = 2021-06-04T22:00:00Z
-draft = true
 hero = "/images/what-is-hugo.png"
 title = "Générateurs de sites statiques et CDN"
 type = "blog"
