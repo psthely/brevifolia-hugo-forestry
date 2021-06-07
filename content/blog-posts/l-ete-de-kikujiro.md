@@ -1,7 +1,6 @@
 +++
 author = "Philippe Sthely"
 date = 2021-06-06T22:00:00Z
-draft = true
 hero = "/images/68795346.webp"
 title = "L'été de Kikujiro"
 type = "blog"
