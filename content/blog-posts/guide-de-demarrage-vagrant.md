@@ -7,4 +7,4 @@ title = "Guide de démarrage Vagrant"
 type = "blog"
 
 +++
-Vagrant permet le déploiement de machines virtuelles afin de fournir un environnement de travail commun (dépendances, configuration) à différents utilisateurs. Ainsi, chaque utilisateur dispose d'une configuration corrélée au projet sur lequel son équipe travail, qu'il peut lancer depuis sa machine locale, en continuant à utiliser ses propres outils.
+Vagrant permet le déploiement de machines virtuelles afin de fournir un environnement de travail commun (dépendances, configuration) à différents utilisateurs. Ainsi, chaque utilisateur dispose d'une configuration commune au projet sur lequel son équipe travail, qu'il peut lancer depuis sa machine locale, en continuant à utiliser ses propres outils.
