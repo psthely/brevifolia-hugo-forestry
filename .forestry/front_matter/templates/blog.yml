@@ -32,6 +32,7 @@ fields:
   label: Hero Image
 pages:
 - content/blog-posts/a-propos-de-hugo.md
+- content/blog-posts/guide-de-demarrage-vagrant.md
 - content/blog-posts/hikkikomori-desu.md
 - content/blog-posts/l-ete-de-kikujiro.md
 - content/blog-posts/ovni-flatland-anomalies-dimensionnelles-et-trous-de-vers.md
