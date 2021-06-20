@@ -1,20 +1,12 @@
 +++
 author = "Philippe Sthely"
 date = 2021-06-19T22:00:00Z
-draft = true
 hero = "/images/hero_guide_web_1.jpg"
 title = "Guide de développement Web - Première Partie"
 type = "blog"
 
 +++
 # Guide de développement Web - HTML, CSS, JavaScript, Hugo, Netlify, Forestry
-
-[https://github.com/psthely/lorem_ipsum-0.1.git]: https://github.com/psthely/lorem_ipsum-0.1.git
-[https://github.com/psthely/lorem_ipsum-0.2]: https://github.com/psthely/lorem_ipsum-0.2
-[https://github.com/psthely/lorem_ipsum-0.3]: https://github.com/psthely/lorem_ipsum-0.3
-[DevDocs API Documentation]: https://devdocs.io
-[Lorem Ipsum]: https://www.lipsum.com/
-[Wikimedia Commons]: https://commons.wikimedia.org/wiki/Accueil
 
 ## Introduction
 
@@ -24,15 +16,15 @@ Sa vocation est de proposer un parcours simple qui vous permettra d'explorer dif
 
 Vous pourrez voir comment :
 
-- créer une page Web statique
-- structurer ses données avec JavaScript
-- créer des composants réutilisables
-- créer un site statique avec Hugo et Forestry
-- automatiser le déploiement sur Netlify
+* créer une page Web statique
+* structurer ses données avec JavaScript
+* créer des composants réutilisables
+* créer un site statique avec Hugo et Forestry
+* automatiser le déploiement sur Netlify
 
 Suivez le guide dans l'ordre et vous devriez arriver à la fin sans problèmes. Vous pouvez bien sûr me contacter sur les réseaux sociaux, via mon blog ou directement par mail.
 
-Ce n’est pas un cours ! Je ne décris pas la syntaxe du code. Je vous invite à parcourir les documentations si nécessaire. Pour cela, il existe l'outil [DevDocs API Documentation][] qui propose une centralisation efficace des différentes documentations disponibles.
+Ce n’est pas un cours ! Je ne décris pas la syntaxe du code. Je vous invite à parcourir les documentations si nécessaire. Pour cela, il existe l'outil [DevDocs API Documentation](https://devdocs.io) qui propose une centralisation efficace des différentes documentations disponibles.
 
 Dans ce guide, j’utilise le système d’exploitation Ubuntu et les logiciels fournis par défaut : Firefox, Terminal et Gedit.
 
@@ -68,11 +60,10 @@ La structure de base d'une page Web est la suivante :
 
 Cette structure se répète sur toutes les pages affichées par le navigateur. Elle contient les données nécessaires au bon affichage du document HTML :
 
-- le doctype
-
-- la langue du contenu de la page
-- les métadonnées : encodage des caractères, taille de la zone d'affichage et niveau de zoom (pour le web `responsive`), titre de la page
-- le contenu à proprement parler, entre les balises `<body></body>`
+* le doctype
+* la langue du contenu de la page
+* les métadonnées : encodage des caractères, taille de la zone d'affichage et niveau de zoom (pour le web `responsive`), titre de la page
+* le contenu à proprement parler, entre les balises `<body></body>`
 
 Ce sont les informations de bases à insérer dans un document HTML, mais il en existe beaucoup d'autres à utiliser suivant vos besoins.
 
@@ -80,11 +71,11 @@ Ce sont les informations de bases à insérer dans un document HTML, mais il en 
 
 Je souhaite créer une simple page Web qui contient trois parties principales :
 
-- un entête qui englobe logo, titre, sous-titre et menu de navigation
-- le contenu composé de quattre sections avec titre, image, sous-titre et texte
-- un pied de page qui reprend le menu de navigation et un texte
+* un entête qui englobe logo, titre, sous-titre et menu de navigation
+* le contenu composé de quattre sections avec titre, image, sous-titre et texte
+* un pied de page qui reprend le menu de navigation et un texte
 
-Le texte est généré via [Lorem Ipsum][] et les images proviennent de [Wikimedia Commons][].
+Le texte est généré via [Lorem Ipsum](https://www.lipsum.com/) et les images proviennent de [Wikimedia Commons](https://commons.wikimedia.org/wiki/Accueil).
 
 Le rendu final est le suivant :
 
@@ -333,7 +324,7 @@ Si vous souhaitez copier le code manuellement, les deux fichiers doivent se trou
 
 Sinon, vous pouvez cloner le dépôt GitHub :
 
-- vérifier que `git` est installé :
+* vérifier que `git` est installé :
 
   ```sh
   git --version
@@ -345,14 +336,12 @@ Sinon, vous pouvez cloner le dépôt GitHub :
   # La commande « git » n'a pas été trouvée, mais peut être installée avec :
   # sudo apt install git
   ```
-
-- si `git` n'est pas installé :
+* si `git` n'est pas installé :
 
   ```sh
   sudo apt-get install -y git
   ```
-
-- cloner le dépôt `git` [https://github.com/psthely/lorem_ipsum-0.1.git][] :
+* cloner le dépôt `git` [https://github.com/psthely/lorem_ipsum-0.1.git](https://github.com/psthely/lorem_ipsum-0.1.git) :
 
   ```sh
   cd $HOME/guide_dev
@@ -482,13 +471,13 @@ Au niveau du script HTML, il suffit de supprimer le contenu dans la balise `<mai
 </html>
 ```
 
-Voici l'adresse du dépôt GitHub à cloner si besoin : [https://github.com/psthely/lorem_ipsum-0.2][]
+Voici l'adresse du dépôt GitHub à cloner si besoin : [https://github.com/psthely/lorem_ipsum-0.2](https://github.com/psthely/lorem_ipsum-0.2)
 
 Bien sûr, cette solution n'est pas idéale, mais il y a du mieux :
 
-- on supprime la redondance dans le HTML
-- les données sont structurées dans un unique objet
-- l'ensemble est plus maintenable et évolutif
+* on supprime la redondance dans le HTML
+* les données sont structurées dans un unique objet
+* l'ensemble est plus maintenable et évolutif
 
 On peut appliquer cette logique à l'ensemble des éléments de la page Web. Ainsi le code HTML serait le suivant :
 
@@ -535,7 +524,7 @@ function $(selectors) {
 
 Voici le code JavaScript des différents éléments :
 
-- `header.js` :
+* `header.js` :
 
   ```javascript
   /**
@@ -570,8 +559,7 @@ Voici le code JavaScript des différents éléments :
       </div>'
   )
   ```
-
-- `main.js` :
+* `main.js` :
 
   ```javascript
   /**
@@ -626,8 +614,7 @@ Voici le code JavaScript des différents éléments :
       )
   }
   ```
-
-- `footer.js` :
+* `footer.js` :
 
   ```javascript
   /**
@@ -662,8 +649,7 @@ Voici le code JavaScript des différents éléments :
   )
   
   ```
-
-- `navLink.js` :
+* `navLink.js` :
 
   ```javascript
   /**
@@ -696,11 +682,10 @@ Voici le code JavaScript des différents éléments :
   }
   ```
 
-Voici l'adresse du dépôt sur GitHub : [https://github.com/psthely/lorem_ipsum-0.3][]
+Voici l'adresse du dépôt sur GitHub : [https://github.com/psthely/lorem_ipsum-0.3](https://github.com/psthely/lorem_ipsum-0.3)
 
 Cette approche fonctionne, mais on ne fait qu'appeler une propriété d'affichage (`innerHTML`) sur des éléments HTML. Cependant, c'est un premier pas intéressant par rapport à une simple page HTML.
 
 ## Déclarer des composants avec les modules JavaScript
 
 `TODO`
-
