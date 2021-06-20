@@ -1,7 +1,7 @@
 +++
 author = "Philippe Sthely"
 date = 2021-06-19T22:00:00Z
-hero = "/images/hero_guide_web_1.jpg"
+hero = "/images/hero_guide_web_1-1.jpg"
 title = "Guide de développement Web - Première Partie"
 type = "blog"
 
